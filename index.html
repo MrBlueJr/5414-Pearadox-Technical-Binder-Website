@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
     <meta name="description" content="Technical Binder for Pearadox 5414's 2026 Season">
 </head>
+
 <body>
     <nav class="sidebar">
         <div class="logo">
@@ -28,16 +30,23 @@
         <!-- Hero Section -->
         <section id="home" class="hero section fade-in">
             <div class="hero-content">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                    <img src="assets/page_1_img_0_nobg.png" onerror="this.src='assets/page_1_img_0.png'"
+                        alt="Pearadox Logo" style="max-width: 100px;">
+                    <img src="assets/page_1_img_1.png" alt="Main Title" style="max-height: 80px;">
+                </div>
                 <h1>PEARADOX <span class="highlight">5414</span></h1>
                 <h2>2026 Technical Binder</h2>
-                <p>Welcome to our interactive documentation. A comprehensive breakdown of our robots, strategies, and engineering processes for the 2026 season.</p>
+                <p>Welcome to our interactive documentation. A comprehensive breakdown of our robots, strategies, and
+                    engineering processes for the 2026 season.</p>
                 <a href="#pearsephone" class="btn">Explore the Bot</a>
             </div>
             <div class="hero-image-wrapper">
-                <img src="assets/page_20_img_0_nobg.png" onerror="this.src='assets/page_20_img_0.png'" alt="Pearsephone Robot" class="hero-image">
+                <img src="assets/page_20_img_0_nobg.png" onerror="this.src='assets/page_20_img_0.png'"
+                    alt="Pearsephone Robot" class="hero-image">
             </div>
         </section>
-        
+
         <!-- Game Analysis -->
         <section id="game-analysis" class="section fade-in">
             <h2 class="section-title">Game Analysis: Pear-Up!</h2>
@@ -45,7 +54,9 @@
             <div class="card-grid">
                 <div class="card">
                     <h3>Kickoff Strategy</h3>
-                    <p>We hosted a kickoff event at our facility, inviting other teams to watch the FIRST live stream. We organized a list of actions a robot or alliance can perform and narrowed down tasks to Must, Could, or Won't do.</p>
+                    <p>We hosted a kickoff event at our facility, inviting other teams to watch the FIRST live stream.
+                        We organized a list of actions a robot or alliance can perform and narrowed down tasks to Must,
+                        Could, or Won't do.</p>
                     <img src="assets/page_5_img_1.png" alt="Kickoff" class="card-img">
                 </div>
                 <div class="card">
@@ -54,13 +65,15 @@
                         <li><strong>Base:</strong> Cross the bump without being damaged; utilize a brainpan design.</li>
                         <li><strong>Intake:</strong> Pull fuel up and over the bumper; intake four fuel at a time.</li>
                         <li><strong>Hopper:</strong> 30-40 fuel storage capacity; quick fuel transmission.</li>
-                        <li><strong>Launcher:</strong> Adjustable hood; turret; reliable mass launching (7-10 per sec).</li>
+                        <li><strong>Launcher:</strong> Adjustable hood; turret; reliable mass launching (7-10 per sec).
+                        </li>
                         <li><strong>Climber:</strong> Level 1 climb in Auto & Teleop.</li>
                     </ul>
                 </div>
                 <div class="card">
                     <h3>KrayonCAD</h3>
-                    <p>We modeled early archetypes to identify the optimal geometry and mechanism placements before creating the MVR.</p>
+                    <p>We modeled early archetypes to identify the optimal geometry and mechanism placements before
+                        creating the MVR.</p>
                     <img src="assets/page_6_img_0.png" alt="KrayonCAD" class="card-img" style="object-fit: contain;">
                 </div>
             </div>
@@ -69,25 +82,37 @@
         <!-- MVR -->
         <section id="mvr" class="section fade-in">
             <h2 class="section-title">Prototyping Bot: MVR (Gary)</h2>
-            <p class="subtitle">Minimally Viable Robot - Designed for rapid testing, driver practice, and identifying the best competition robot architecture.</p>
-            
+            <p class="subtitle">Minimally Viable Robot - Designed for rapid testing, driver practice, and identifying
+                the best competition robot architecture.</p>
+
             <div class="subsystems">
                 <div class="subsystem-row">
                     <div class="text-content">
                         <h3>Base & Intake</h3>
-                        <p>The base features a lightened bellypan, center rails, and a mezzanine structure to act as a gravity-fed path. The intake uses nine 4" 30A durometer wheels powered by a Neo motor, testing feasibility of pulling fuel over the bumpers.</p>
+                        <p>The base features a lightened bellypan, center rails, and a mezzanine structure to act as a
+                            gravity-fed path. The intake uses nine 4" 30A durometer wheels powered by a Neo motor,
+                            testing feasibility of pulling fuel over the bumpers.</p>
                     </div>
-                    <div class="image-content">
-                        <img src="assets/page_8_img_1_nobg.png" onerror="this.src='assets/page_8_img_1.png'" alt="MVR Base">
+                    <div class="image-content"
+                        style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                        <img src="assets/page_8_img_1_nobg.png" onerror="this.src='assets/page_8_img_1.png'"
+                            alt="MVR Base" style="flex: 1; min-width: 200px;">
+                        <img src="assets/page_8_img_0.png" alt="MVR Detail"
+                            style="flex: 1; min-width: 200px; max-width: 300px;">
+                        <img src="assets/page_9_img_0.png" alt="MVR Intake"
+                            style="flex: 1; min-width: 200px; max-width: 300px;">
                     </div>
                 </div>
                 <div class="subsystem-row reverse">
                     <div class="text-content">
                         <h3>Hopper & Launcher</h3>
-                        <p>A massive wood hopper maximized fuel storage (35+). Initially gravity-fed, we quickly added agitators and switched to a spindexer. The simple launcher tested reliability with two Kraken x60s and an adjustable PLA hood.</p>
+                        <p>A massive wood hopper maximized fuel storage (35+). Initially gravity-fed, we quickly added
+                            agitators and switched to a spindexer. The simple launcher tested reliability with two
+                            Kraken x60s and an adjustable PLA hood.</p>
                     </div>
                     <div class="image-content">
-                        <img src="assets/page_11_img_0_nobg.png" onerror="this.src='assets/page_11_img_0.png'" alt="Launcher Prototype">
+                        <img src="assets/page_11_img_0_nobg.png" onerror="this.src='assets/page_11_img_0.png'"
+                            alt="Launcher Prototype">
                     </div>
                 </div>
             </div>
@@ -102,48 +127,61 @@
                 <div class="subsystem-row">
                     <div class="text-content">
                         <h3>Base</h3>
-                        <p>Driven by four MK5N Swerve Modules, with a completely protective "brainpan" for electronics. Polycarbonate bellypan protects all routed wiring.</p>
+                        <p>Driven by four MK5N Swerve Modules, with a completely protective "brainpan" for electronics.
+                            Polycarbonate bellypan protects all routed wiring.</p>
                     </div>
                     <div class="image-content">
-                        <img src="assets/page_14_img_0_nobg.png" onerror="this.src='assets/page_14_img_0.png'" alt="Cleopeartra Base">
+                        <img src="assets/page_14_img_0_nobg.png" onerror="this.src='assets/page_14_img_0.png'"
+                            alt="Cleopeartra Base">
                     </div>
                 </div>
 
                 <div class="subsystem-row reverse">
                     <div class="text-content">
                         <h3>Intake</h3>
-                        <p>Custom gearboxes with torque sync (Kraken x60 pivot + Kraken x44 rollers). Slapdown archetype with 5 polycarbonate rollers and silicone sleeving.</p>
+                        <p>Custom gearboxes with torque sync (Kraken x60 pivot + Kraken x44 rollers). Slapdown archetype
+                            with 5 polycarbonate rollers and silicone sleeving.</p>
                     </div>
-                    <div class="image-content">
+                    <div class="image-content"
+                        style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
                         <!-- We don't have a direct intake image for cleopeartra but we use the launcher image placeholder below -->
-                        <img src="assets/page_15_img_0.png" alt="Cleopeartra Intake">
+                        <img src="assets/page_15_img_0.png" alt="Cleopeartra Intake" style="flex: 1; min-width: 200px;">
+                        <img src="assets/page_15_img_1.png" alt="Intake Detail 1"
+                            style="flex: 1; min-width: 200px; max-width: 300px;">
+                        <img src="assets/page_15_img_4.png" alt="Intake Detail 2"
+                            style="flex: 1; min-width: 200px; max-width: 300px;">
                     </div>
                 </div>
 
                 <div class="subsystem-row">
                     <div class="text-content">
                         <h3>Hopper & Spindexer</h3>
-                        <p>A massive gravity-fed basin into an 8" pneumatic spindexer wheel moves fuel quickly to the launcher. Compresses fuel slightly to feed consistently to the feeder.</p>
+                        <p>A massive gravity-fed basin into an 8" pneumatic spindexer wheel moves fuel quickly to the
+                            launcher. Compresses fuel slightly to feed consistently to the feeder.</p>
                     </div>
                     <div class="image-content">
                         <img src="assets/page_16_img_0.png" alt="Cleopeartra Hopper">
                     </div>
                 </div>
-                
+
                 <div class="subsystem-row reverse">
                     <div class="text-content">
                         <h3>Launcher</h3>
-                        <p>A 55.56:1 turret driven by a Kraken x44. High-speed Andymark servos controlled an adjustable 3DP hood (20-60deg), feeding fuel into two Kraken x60s on a 1:1 firing output.</p>
+                        <p>A 55.56:1 turret driven by a Kraken x44. High-speed Andymark servos controlled an adjustable
+                            3DP hood (20-60deg), feeding fuel into two Kraken x60s on a 1:1 firing output.</p>
                     </div>
                     <div class="image-content">
-                        <img src="assets/page_17_img_0_nobg.png" onerror="this.src='assets/page_17_img_0.png'" alt="Turret and Launcher">
+                        <img src="assets/page_17_img_0_nobg.png" onerror="this.src='assets/page_17_img_0.png'"
+                            alt="Turret and Launcher">
                     </div>
                 </div>
 
                 <div class="subsystem-row">
                     <div class="text-content">
                         <h3>Feeder</h3>
-                        <p>The feeder intakes fuel from the spindexer, creating a smooth hand-off from hopper to launcher. Multi-wheel drive using a Kraken x44 at 4:1 for reliable torque and speed. A CANrange sensor detects fuel in the feeder before passing.</p>
+                        <p>The feeder intakes fuel from the spindexer, creating a smooth hand-off from hopper to
+                            launcher. Multi-wheel drive using a Kraken x44 at 4:1 for reliable torque and speed. A
+                            CANrange sensor detects fuel in the feeder before passing.</p>
                     </div>
                     <div class="image-content">
                         <img src="assets/page_18_img_0.png" alt="Cleopeartra Feeder">
@@ -153,10 +191,12 @@
                 <div class="subsystem-row reverse">
                     <div class="text-content">
                         <h3>Climber</h3>
-                        <p>Two pairs of 50A durometer 2” blue compliant wheels. Telescoping arm mechanism attached to a NEO Vortex motor with a ratio of 25:1. 90 degree gearbox used for better packaging.</p>
+                        <p>Two pairs of 50A durometer 2” blue compliant wheels. Telescoping arm mechanism attached to a
+                            NEO Vortex motor with a ratio of 25:1. 90 degree gearbox used for better packaging.</p>
                     </div>
                     <div class="image-content">
-                        <img src="assets/page_19_img_0_nobg.png" onerror="this.src='assets/page_19_img_0.png'" alt="Cleopeartra Climber">
+                        <img src="assets/page_19_img_0_nobg.png" onerror="this.src='assets/page_19_img_0.png'"
+                            alt="Cleopeartra Climber">
                     </div>
                 </div>
             </div>
@@ -166,32 +206,40 @@
         <section id="pearsephone" class="section fade-in">
             <h2 class="section-title">Pearsephone</h2>
             <p class="subtitle">Refining our iteration. Our final peak-performance iteration.</p>
-            
-             <div class="subsystems">
+
+            <div class="subsystems">
                 <div class="subsystem-row">
                     <div class="text-content">
                         <h3>Base</h3>
-                        <p>Adjustments from Cleopeartra: Removed mezzanine rails & lift kits to reduce weight and height. Mirrored electronics layout for superior battery clearance.</p>
+                        <p>Adjustments from Cleopeartra: Removed mezzanine rails & lift kits to reduce weight and
+                            height. Mirrored electronics layout for superior battery clearance.</p>
                     </div>
                     <div class="image-content">
                         <img src="assets/page_21_img_0.jpeg" alt="Pearsephone Base">
                     </div>
                 </div>
-                
-                 <div class="subsystem-row reverse">
+
+                <div class="subsystem-row reverse">
                     <div class="text-content">
                         <h3>Intake</h3>
-                        <p>Intake Overhaul: We "Gary-ified" the intake structure, returning to a simpler, more rugged design. Transitioned from rigid polycarb to Thrifty Squish Wheels, permanently deployed the kicker, and added aluminum crash bars.</p>
+                        <p>Intake Overhaul: We "Gary-ified" the intake structure, returning to a simpler, more rugged
+                            design. Transitioned from rigid polycarb to Thrifty Squish Wheels, permanently deployed the
+                            kicker, and added aluminum crash bars.</p>
                     </div>
-                    <div class="image-content">
-                        <img src="assets/page_22_img_0_nobg.png" onerror="this.src='assets/page_22_img_0.png'" alt="Pearsephone Intake">
+                    <div class="image-content"
+                        style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                        <img src="assets/page_22_img_0_nobg.png" onerror="this.src='assets/page_22_img_0.png'"
+                            alt="Pearsephone Intake" style="flex: 1; min-width: 200px;">
+                        <img src="assets/page_22_img_1.png" alt="Pearsephone Intake Detail"
+                            style="flex: 1; min-width: 200px; max-width: 300px;">
                     </div>
                 </div>
 
                 <div class="subsystem-row">
                     <div class="text-content">
                         <h3>Hopper</h3>
-                        <p>Added expanding hopper walls, doubling capacity to 55 fuel. Upgraded to a custom 3D printed agitator cone with a moving floor, utilizing Cat Tongue grip tape to maximize grip.</p>
+                        <p>Added expanding hopper walls, doubling capacity to 55 fuel. Upgraded to a custom 3D printed
+                            agitator cone with a moving floor, utilizing Cat Tongue grip tape to maximize grip.</p>
                     </div>
                     <div class="image-content">
                         <img src="assets/page_24_img_0.png" alt="Pearsephone Hopper">
@@ -201,17 +249,26 @@
                 <div class="subsystem-row reverse">
                     <div class="text-content">
                         <h3>Launcher</h3>
-                        <p>Replaced hood servos with a Kraken x44 for speed and power. Symmetric hood arms to prevent wobbliness. 45:1 turret ratio with improved wire management.</p>
+                        <p>Replaced hood servos with a Kraken x44 for speed and power. Symmetric hood arms to prevent
+                            wobbliness. 45:1 turret ratio with improved wire management.</p>
                     </div>
-                    <div class="image-content">
-                        <img src="assets/page_25_img_0.png" alt="Pearsephone Launcher">
+                    <div class="image-content"
+                        style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                        <img src="assets/page_25_img_0.png" alt="Pearsephone Launcher"
+                            style="flex: 1; min-width: 200px;">
+                        <img src="assets/page_25_img_1.png" alt="Launcher Detail 1"
+                            style="flex: 1; min-width: 200px; max-width: 300px;">
+                        <img src="assets/page_25_img_2.png" alt="Launcher Detail 2"
+                            style="flex: 1; min-width: 200px; max-width: 300px;">
                     </div>
                 </div>
 
                 <div class="subsystem-row">
                     <div class="text-content">
                         <h3>Feeder</h3>
-                        <p>Shortened and lightened to fit the smaller robot profile while maintaining the parallel 15mm belt pairs driven by 20T and 34T 3DP pulleys. Includes CANrange sensors for rapid fire timing.</p>
+                        <p>Shortened and lightened to fit the smaller robot profile while maintaining the parallel 15mm
+                            belt pairs driven by 20T and 34T 3DP pulleys. Includes CANrange sensors for rapid fire
+                            timing.</p>
                     </div>
                     <div class="image-content">
                         <img src="assets/page_26_img_0.png" alt="Pearsephone Feeder">
@@ -226,17 +283,22 @@
             <div class="card-grid">
                 <div class="card">
                     <h3>Shoot on the Move</h3>
-                    <p>By leveraging advanced odometry and Limelight targeting, our turret and hood dynamically adjust while driving. This prevents stopping to shoot, drastically increasing our cycles per match.</p>
+                    <p>By leveraging advanced odometry and Limelight targeting, our turret and hood dynamically adjust
+                        while driving. This prevents stopping to shoot, drastically increasing our cycles per match.</p>
                 </div>
                 <div class="card">
                     <h3>Autonomous Strategy</h3>
-                    <p>Using PathPlanner, we crafted reliable multi-fuel autos capable of starting from anywhere, focusing on sweeping fuel paths and rapid scoring under the trench.</p>
-                    <img src="assets/page_28_img_0.png" alt="PathPlanner" class="card-img" style="object-fit: contain; margin-top: 1rem;">
+                    <p>Using PathPlanner, we crafted reliable multi-fuel autos capable of starting from anywhere,
+                        focusing on sweeping fuel paths and rapid scoring under the trench.</p>
+                    <img src="assets/page_28_img_0.png" alt="PathPlanner" class="card-img"
+                        style="object-fit: contain; margin-top: 1rem;">
                 </div>
-                 <div class="card">
+                <div class="card">
                     <h3>Data App: Peardict</h3>
-                    <p>Our custom scouting app, organized around our workflow. Iterative design allows our scouts to collect detailed metrics, predicting match outcomes and guiding alliance selections.</p>
-                    <img src="assets/page_31_img_0.png" alt="Scouting App" class="card-img" style="object-fit: contain; margin-top: 1rem;">
+                    <p>Our custom scouting app, organized around our workflow. Iterative design allows our scouts to
+                        collect detailed metrics, predicting match outcomes and guiding alliance selections.</p>
+                    <img src="assets/page_30_img_0.png" alt="Scouting App" class="card-img"
+                        style="object-fit: contain; margin-top: 1rem;">
                 </div>
             </div>
         </section>
@@ -245,4 +307,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
